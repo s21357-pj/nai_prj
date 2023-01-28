@@ -60,18 +60,6 @@ generator = RAGenerator(
     num_beams=2,
 )
 
-QUESTIONS = [
-    "definition of routing",
-    "definition of ip address",
-    "definition of internet",
-    "tell me about internet",
-    "hi",
-    "bye",
-    "what purpose of internet exist",
-    "what internet speed is good",
-    "when the first internet connection was established",
-    "tell me about cisco",
-]
 
 pipe = GenerativeQAPipeline(generator=generator, retriever=retriever)
 
